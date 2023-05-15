@@ -1,0 +1,295 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body { 
+    line-height: 1;
+    font-size: 16px;
+    color: #5E5E5E; 
+    font-family: 'Gilroy', sans-serif; 
+}
+
+/*-------------------------------------------------- */
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+
+}
+
+/*-------------------------------------------------- */
+.container {
+    width: 1172px;
+    margin: 0 auto;
+
+}
+
+/*---------HEADER-------------------------- */
+.header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    
+}
+
+.header_top_bcground {
+    background-color: #65256F;
+}
+
+.header_top_flex {
+    display: flex;
+    min-height: 38px;
+    align-items: center;
+}
+
+.menu_top_text {
+    color: #FBC70E;
+    font-size: 14px;
+}
+
+.menu_top_text2 {
+    color: #ffffff;
+    margin: 0 0 0 518px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu_top_text3 {
+
+    color: #FBC70E;
+    font-weight: 500;
+    margin: 0 0 0 18px;
+}
+
+/*--------------------------------------------------*/
+.header_bottom_flex {
+    display: flex;
+    min-height: 62px;
+    align-items: center;
+
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 0 226px; 
+}
+
+.menu_item {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.menu_link:link,
+.menu_link:visited {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #2A2828;
+}
+.menu_link:hover {
+   
+    color:#FFB700;
+}
+.menu_btn_link {
+    height: 42px;
+    width: 168px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: white;
+    background-color: Purple;
+    border-radius: 3px;
+}
+/* ----------/header------------------ */
+/* ----------MAIN------------------ */
+.page_2{
+    background-color:#E5E5E5;
+}
+.line{
+    background-color:#E5E5E5;
+    z-index: 3;
+}
+
+.titles{
+    
+    font-weight: 400;
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 0 68px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.titles::before{
+    
+    content:'';
+    position: absolute;  
+    background-color:#BEBEBE; 
+    height: 2px; 
+    width: 100%;
+    left: 0;
+    top: 20px;
+
+
+}
+ .our_services_title{
+    padding-top:60px;
+ }
+.blank_title{
+    font-size: 32px;
+    text-align: center;
+    color:#343434;
+}
+.blank{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.blank_text{
+    font-weight: 400;
+    font-size: 18px;
+    color:#585858;
+}
+.blank_form{
+   
+    display: flex;
+    margin: 40px 0 60px 0;
+    
+}
+.blank_form input{ 
+    width: 309px;
+    height: 47px;
+    margin: 0px 30px 0 0;
+    border-radius:3px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    /* background:#E5E3E3; */
+}
+.main_img_block{
+    display: flex;
+    padding:0 0 60px 0;
+}
+.inner_left_block{
+    
+    margin-right: 32px;
+    
+}
+.title_box{
+    position: relative;
+    text-align: center;
+     
+}
+.left_half_title{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    color:#fff;
+    transform: translate(-50%); 
+    font-weight: 400;
+    font-size: 36px;
+}
+.left_half_title_cow{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    color:#fff;
+    transform: translate(-50%); 
+     font-weight: 400;
+    font-size: 36px;
+}
+
+.left_half_block{
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ .right_half_block div:first-child{
+    margin-bottom: 16px;
+ }
+ ._icons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    
+ }
+ .icon_block{  
+   text-align: center;
+   
+    
+ }
+ .ttt{
+    margin:0 auto;
+    width: 90%;
+    
+ }
+ .icons_text{ 
+   
+    font-size: 20px;
+    font-weight: 400;
+    color: #000; 
+    padding-top: 20px;
+ }
+/* ----------/MAIN------------------ */
+/* ----------FOOTER------------------ */
+.footer{
+    background-color:#3A3A3A;
+}
+.footer_container{
+    display: flex;
+    padding: 64px 0 90px 0;
+   
+}
+.footer_content_blocks{
+    width: 300px;
+    padding: 0 100px 0 0;
+   
+}
+.footer_titles{
+    color: white;
+    font-size: 14px;
+}
+.footer_texts{
+    color: #BCBBBB;
+    font-size: 14px;
+     padding: 10px 0;
+}
+.footer_texts_info{
+    padding: 10px 0;
+}

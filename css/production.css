@@ -1,0 +1,240 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+
+    line-height: 1;
+    font-size: 16px;
+    color: #5E5E5E;
+    font-family: 'Gilroy', sans-serif;
+}
+
+/*-------------------------------------------------- */
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+
+}
+
+/*-------------------------------------------------- */
+.container {
+    width: 1172px;
+    margin: 0 auto;
+
+}
+
+/*---------HEADER-------------------------- */
+.header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+
+.header_top_bcground {
+    background-color: #65256F;
+}
+
+.header_top_flex {
+    display: flex;
+    min-height: 38px;
+    align-items: center;
+}
+
+.menu_top_text {
+    color: #FBC70E;
+    font-size: 14px;
+}
+
+.menu_top_text2 {
+    color: #ffffff;
+    margin: 0 0 0 518px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu_top_text3 {
+
+    color: #FBC70E;
+    font-weight: 500;
+    margin: 0 0 0 18px;
+}
+
+/*--------------------------------------------------*/
+.header_bottom_flex {
+    display: flex;
+    min-height: 62px;
+    align-items: center;
+
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 0 226px;
+
+}
+
+.menu_item {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.menu_link:link,
+.menu_link:visited {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #2A2828;
+}
+
+.menu_link:hover {
+
+    color: #FFB700;
+}
+
+.menu_btn_link {
+    height: 42px;
+    width: 168px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: white;
+    background-color: Purple;
+    border-radius: 3px;
+}
+
+/* ----HEADER------------------------------- */
+/* -----MAIN--------------------------------- */
+
+.line {
+    background-color: #E5E5E5;
+    z-index: 3;
+}
+
+.titles {
+
+    font-weight: 400;
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 0 68px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.titles::before {
+
+    content: '';
+    position: absolute;
+    background-color: #BEBEBE;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 20px;
+}
+
+.page_6 {
+    background-color: #E5E5E5;
+}
+
+.production {
+    padding: 60px 0;
+}
+
+.section_2 {
+    padding: 0 0 60px 0;
+}
+
+.section_2_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    padding: 24px 0 48px 0;
+}
+
+.production_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    margin: 12px 0 0 0;
+    background: url('../img/Proizvodstvo/Rectangle4.png');
+}
+
+.back_title {
+    text-align: center;
+    padding: 283px 0 15px 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+/* --------/MAIN--------------------- */
+/* --------FOOTER--------------------- */
+.footer {
+    background-color: #3A3A3A;
+}
+
+.footer_container {
+    display: flex;
+    padding: 64px 0 90px 0;
+
+}
+
+.footer_content_blocks {
+    width: 300px;
+    padding: 0 100px 0 0;
+
+}
+
+.footer_titles {
+    color: white;
+    font-size: 14px;
+}
+
+.footer_texts {
+    color: #BCBBBB;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.footer_texts_info {
+    padding: 10px 0;
+}
